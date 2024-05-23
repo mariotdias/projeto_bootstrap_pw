@@ -1,0 +1,17 @@
+  /* Ajuste de margem para os controles de navegação */
+  .carousel-control-prev,
+  .carousel-control-next {
+      margin-left: -5%;
+  }
+
+  /* Ajuste de margem para as barras de indicação */
+  .carousel-indicators {
+      margin-bottom: -20px;
+  }
+
+  /* Definir largura máxima para as imagens */
+  .carousel-item img {
+      max-width: 80%; /* Definindo a largura máxima como 80% do contêiner */
+      height: auto; /* Mantendo a proporção da imagem */
+      max-height: 400px; /* Altura máxima para evitar que as imagens fiquem muito grandes */
+  }
