@@ -1,0 +1,5 @@
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto fosco com 50% de opacidade */
+    padding: 10px; /* Adiciona um pouco de espaço ao redor do texto */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+  }

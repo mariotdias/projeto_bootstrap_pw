@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Termometria</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/fisica.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Desenvolvedor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Outras Disciplinas</a>
+                    </li>F
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Professores</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Buscar">
+                    <button class="btn btn-primary" type="button">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="mb-5 mt-5" id="termometria">
+            <div class="p-5  bg-body-tertiary rounded-3">
+                <div class="container text-center">
+                    <h1 class="display-5 fw-bold">Termometria</h1>
+                    <p class="fs-4">A termometria é um ramo da física que se dedica ao estudo das temperaturas e dos
+                        instrumentos utilizados para medi-las. Desde os tempos antigos, a capacidade de medir e
+                        compreender as variações de temperatura tem sido essencial em várias áreas da ciência, da
+                        indústria e da vida cotidiana. Por meio da termometria, é possível quantificar e compreender
+                        como a energia térmica é distribuída e trocada entre os sistemas, permitindo-nos controlar
+                        processos, prever mudanças climáticas e até mesmo monitorar a saúde humana. Nesta introdução,
+                        exploraremos os conceitos fundamentais da termometria e sua importância em diversos campos do
+                        conhecimento.
+
+
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <h1> Escalas Termométricas</h1>
+        </div>
+        <div class="container" id="escalas">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/celsius.png" alt="Card image" id="celsius">
+                        <div class="card-body">
+                            <h4 class="card-title">Graus Celsius</h4>
+                            <p class="card-text">Graus Celsius são uma unidade de medida de temperatura que utiliza o
+                                ponto de congelamento da água (0°C) e o ponto de ebulição da água (100°C) como
+                                referências, dividindo esse intervalo em 100 partes iguais.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/fahrenheint.jpeg" alt="Card image" id="fahrenheint">
+                        <div class="card-body">
+                            <h4 class="card-title">Graus Fahrenheit</h4>
+                            <p class="card-text">Graus Fahrenheit são uma unidade de medida de temperatura que utiliza o
+                                ponto de congelamento da água (32°F) e o ponto de ebulição da água (212°F) como
+                                referências, dividindo esse intervalo em 180 partes iguais.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/fahrenheint.jpeg" alt="Card image" id="kelvin">
+                        <div class="card-body">
+                            <h4 class="card-title">Graus Kelvin </h4>
+                            <p class="card-text">
+                                Os graus Kelvin são uma medida de temperatura absoluta, onde zero Kelvin é o ponto onde
+                                as moléculas param de se mover.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center mt-5">
+            <h1>Escala de conversão de graus</h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Celsius</th>
+                        <th>Fahrenheit</th>
+                        <th>Kelvin</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-bs-toggle="tooltip" title="Celsius: valor base.">0</td>
+                        <td data-bs-toggle="tooltip" title="(0°C * 9/5) + 32 = 32°F">32</td>
+                        <td data-bs-toggle="tooltip" title="0°C + 273.15 = 273.15K">273.15</td>
+                    </tr>
+                    <tr>
+                        <td data-bs-toggle="tooltip" title="Celsius: valor base.">10</td>
+                        <td data-bs-toggle="tooltip" title="(10°C * 9/5) + 32 = 50°F">50</td>
+                        <td data-bs-toggle="tooltip" title="10°C + 273.15 = 283.15K">283.15</td>
+                    </tr>
+                    <tr>
+                        <td data-bs-toggle="tooltip" title="Celsius: valor base.">100</td>
+                        <td data-bs-toggle="tooltip" title="(100°C * 9/5) + 32 = 212°F">212</td>
+                        <td data-bs-toggle="tooltip" title="100°C + 273.15 = 373.15K">373.15</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+
+        <div class="text-center mt-5">
+            <h1>Estados Físicos</h1>
+        </div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="imgs/liquido.jpg" class="d-block mx-auto img-fluid" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Estado Liquido</h3>
+                        <p class="text-light">
+                            O estado líquido é uma fase da matéria onde as moléculas estão próximas e em constante
+                            movimento, permitindo fluidez e adaptação ao recipiente.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="imgs/solido.jpg" class="d-block mx-auto img-fluid" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Estado Sólido</h3>
+                        <p class="text-light">
+                            O estado sólido é uma fase da matéria onde as moléculas estão rigidamente organizadas,
+                            conferindo forma e volume fixos.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/gasoso.jpg" class="d-block mx-auto img-fluid" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Estado Gasoso</h3>
+                        <p class="text-light">
+                            O estado gasoso é uma fase da matéria onde as moléculas estão muito afastadas e se movem
+                            livremente, ocupando todo o volume disponível.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container  text-center mt-5">
+            <h1>Leis da Termodinâmica</h1>
+        </div>
+
+
+        <div class="container text-center mt-5">
+            <h2>Primeira Lei da Termodinâmica</h2>
+                <h4 class="col-12">A Primeira Lei da Termodinâmica se relaciona com o princípio da conservação da energia. Isso quer dizer
+                que a energia em um sistema não pode ser destruída nem criada, somente transformada.</h4>
+                <img src="imgs/primeiraleitermo.png" class="img-thumbnail" alt="Primeira Lei">
+        </div>
+
+        <div class="list-group text-center mt-5">
+            <a href="#" class="list-group-item-active">Voltar para o inicio da página</a>
+        </div>
+
+
+    </main>
+
+
+
+
+
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <p class="text-body-secondary">© 2024</p>
+        </div>
+
+        <div class="col mb-3">
+
+        </div>
+
+        <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+        </div>
+
+        <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+        </div>
+
+        <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+<style>
+    .carousel-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Fundo preto fosco com 50% de opacidade */
+        padding: 20px;
+        /* Adiciona espaço ao redor do texto */
+        border-radius: 10px;
+        /* Adiciona bordas arredondadas */
+        max-width: 30vw;
+        /* Limita a largura máxima do fundo */
+        text-align: center;
+        /* Centraliza o texto */
+    }
+
+    .carousel-caption h3 {
+        margin: 0;
+        color: white;
+        /* Cor do texto */
+    }
+
+    #celsius:hover {
+        width: 20vw;
+        transition: all .6s;
+    }
+
+    #fahrenheint:hover {
+        width: 20vw;
+        transition: all .6s;
+    }
+
+    #kelvin:hover {
+        width: 20vw;
+        transition: all .6s;
+    }
+</style>
+<script src="js.js"></script>
+
+</html>
